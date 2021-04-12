@@ -1,38 +1,143 @@
-.App {
-  text-align: center;
+* {
+    padding: 0.1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2{
+    margin-left: 1.5rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+u {
+    text-decoration-color: rgb(221, 33, 96);
+}
+.arrow {
+    color: rgb(221, 33, 96);
+}
+.title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.text {
+    text-align: justify;
+    font-size: small;
+    color: gray;
+}
+.vl {
+    border-left: 6px solid green;
+    height: 500px;
   }
+
+hr {
+    border-top: 0.01rem solid rgb(202, 200, 200);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Heading {
+    text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.Header {
+    display: flex;
+    justify-content: space-around;
+}
+.Header a {
+    text-decoration: none;
+    color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.MasterImage1 {
+    min-width: 100%;
+    min-height: 40vh;
+}
+
+.MasterImage2 {
+    min-width: 100%;
+    min-height: 27.5vh;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 0.2rem;
+    margin-left: 0.5rem;
+    color: white;
+    font-size: 1.5em;
+}
+
+.figcaption2 {
+    font-size: 1em;
+}
+
+.Date {
+    font-size: small;
+    font-weight: 100;
+}
+
+.LatestBlog {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Stories {
+    display: flex;
+    justify-content: space-around;
+}
+
+.BlogImg{
+    min-width: 100%;
+}
+
+.Article_Image{
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.adverdisementblock {
+    height: 100vh;
+    border: solid black;
+}
+
+.advertisementposition{
+    text-align: center;
+    position: relative;
+    top: 50%;
+}
+
+.PostImg {
+    min-width: 100%;
+}
+
+.post{
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+}
+
+.num{
+    color: gray;
+    font-size: xx-large;
+}
+
+.figcaption3{
+    position: absolute;
+    bottom: 25%;
+    margin-left: 25%;
+    color: white;
+    font-size: 1.5em;
 }
